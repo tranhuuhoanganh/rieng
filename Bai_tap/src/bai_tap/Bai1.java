@@ -12,9 +12,9 @@ public class Bai1 {
         int thang;
         Scanner sc = new Scanner(System.in);
         
-        System.err.print("Nhap nam: ");
+        System.out.print("Nhap nam: ");
         int nam = sc.nextInt();
-        System.err.print("Nhap thang: ");
+        System.out.print("Nhap thang: ");
         thang = sc.nextInt();
         switch (thang) {
             case 2:{
@@ -33,10 +33,7 @@ public class Bai1 {
             default:
                 System.out.println("thang co 31 ngay");     
         }
-        
-       
-        
-        
+           
     }
     
 }
